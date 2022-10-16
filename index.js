@@ -16,7 +16,7 @@ verde = '\033[1;32m'
 
 
 
-app.get('/home', cors(), (req,res) =>{res.render('portigolio.ejs')})
+app.get('/', (req,res) =>{res.render('portigolio.ejs')})
 
 
 
