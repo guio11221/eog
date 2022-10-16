@@ -2,7 +2,7 @@ require('dotenv').config() // gerencia as variavel de ambiente .env
 const app          = require('./confg/app') // conffiguração do express
 const PORTA        = process.env.PORTA || 3000 || 5000 || 8080 || 3333 // PORTA 
 // muda o nome do arquivo  exemple_env para  .env
-const fileUpload = require('express-fileUpload');
+const fileUpload = require('express-fileupload');
 const path = require('path');
 const bodyParser = require('body-parser');
 const fs = require('fs');
