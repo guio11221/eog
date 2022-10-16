@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "node index.js",
-    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "dev2": " nodemon node_modules/.bin/gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
